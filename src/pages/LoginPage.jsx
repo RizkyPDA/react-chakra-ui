@@ -17,10 +17,10 @@ export default function LoginPage() {
       password: '',
     },
     onSubmit: values => {
-      console.log(values, 'ini login formik');
+      console.log(values, 'formik login');
       toast({
         title: 'Logging in',
-        description: "You're Successfuly Logged In",
+        description: 'You are successfully logged in',
         status: 'success',
         duration: 4000,
         isCloseable: true,

@@ -4,7 +4,7 @@ import { Logo } from '../Logo';
 export default function Home() {
   return (
     <>
-      <Text>Home</Text>
+      <Text fontSize="4xl">Home</Text>
       <VStack spacing={8}>
         <Logo h="40vmin" pointerEvents="none" />
         <Text>
